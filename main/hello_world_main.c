@@ -13,9 +13,10 @@
 #include "esp_spi_flash.h"
 
 
+
 void app_main()
 {
-    printf("Hello world!\n");
+        printf("Hello world!\n I am Engineer Isaias Velasquez and you're invited to be here.");
 
     /* Print chip information */
     esp_chip_info_t chip_info;

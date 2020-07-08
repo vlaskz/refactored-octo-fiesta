@@ -4,6 +4,6 @@
 #
 
 PROJECT_NAME := hello-world
-
+#EXTRA_COMPONENTS_DIR := /home/vlaskz/esp/esp-idf-lib/components
 include $(IDF_PATH)/make/project.mk
 

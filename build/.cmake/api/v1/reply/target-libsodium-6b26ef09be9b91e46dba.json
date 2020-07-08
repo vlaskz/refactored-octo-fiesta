@@ -1,0 +1,2893 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "libsodium/liblibsodium.a"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"register_component",
+			"add_compile_options",
+			"idf_set_global_compiler_options",
+			"project",
+			"target_compile_definitions",
+			"component_compile_definitions",
+			"add_definitions",
+			"idf_get_git_revision",
+			"include_directories",
+			"kconfig_set_variables",
+			"target_include_directories",
+			"add_component_dependencies",
+			"components_finish_registration"
+		],
+		"files" : 
+		[
+			"/home/vlaskz/esp/esp-idf/tools/cmake/components.cmake",
+			"/home/vlaskz/esp/esp-idf/components/libsodium/CMakeLists.txt",
+			"/home/vlaskz/esp/esp-idf/tools/cmake/idf_functions.cmake",
+			"/home/vlaskz/esp/esp-idf/tools/cmake/project.cmake",
+			"CMakeLists.txt",
+			"/home/vlaskz/esp/esp-idf/tools/cmake/kconfig.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 132,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 62,
+				"parent" : 1
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 7,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 121,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 65,
+				"parent" : 5
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 81,
+				"parent" : 5
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 84,
+				"parent" : 5
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 137,
+				"parent" : 5
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 134,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 243,
+				"parent" : 10
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 59,
+				"parent" : 5
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 149,
+				"parent" : 5
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 60,
+				"parent" : 5
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 125,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 258,
+				"parent" : 15
+			},
+			{
+				"command" : 10,
+				"file" : 3,
+				"line" : 99,
+				"parent" : 4
+			},
+			{
+				"command" : 9,
+				"file" : 5,
+				"line" : 16,
+				"parent" : 17
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 88,
+				"parent" : 1
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 88,
+				"parent" : 1
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 103,
+				"parent" : 1
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 103,
+				"parent" : 1
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 103,
+				"parent" : 1
+			},
+			{
+				"command" : 13,
+				"file" : 3,
+				"line" : 171,
+				"parent" : 4
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 154,
+				"parent" : 24
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 128,
+				"parent" : 25
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 158,
+				"parent" : 24
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 128,
+				"parent" : 27
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 158,
+				"parent" : 24
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 128,
+				"parent" : 29
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 158,
+				"parent" : 24
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 128,
+				"parent" : 31
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 158,
+				"parent" : 24
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 128,
+				"parent" : 33
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 158,
+				"parent" : 24
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 128,
+				"parent" : 35
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 69,
+				"parent" : 5
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 94,
+				"parent" : 5
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " "
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Og"
+				},
+				{
+					"backtrace" : 37,
+					"fragment" : "-std=gnu99"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fstrict-volatile-bitfields"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-mlongcalls"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-nostdlib"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Werror=all"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-error=unused-function"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-error=unused-but-set-variable"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-error=unused-variable"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-error=deprecated-declarations"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-unused-parameter"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-sign-compare"
+				},
+				{
+					"backtrace" : 38,
+					"fragment" : "-Wno-old-style-declaration"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-ggdb"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 11,
+					"define" : "CONFIGURED"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "ESP_PLATFORM"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "GCC_NOT_5_2_0=1"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "HAVE_CONFIG_H"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "HAVE_WEAK_SYMBOLS"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "IDF_VER=\"v3.2.2-436-g8e74a471e\""
+				},
+				{
+					"backtrace" : 0,
+					"define" : "MBEDTLS_CONFIG_FILE=\"mbedtls/esp_config.h\""
+				},
+				{
+					"backtrace" : 11,
+					"define" : "NATIVE_LITTLE_ENDIAN"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "__STDC_CONSTANT_MACROS"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 18,
+					"path" : "/home/vlaskz/esp/hello_world/build/config"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/include"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/port_include"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/include/sodium"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/port_include/sodium"
+				},
+				{
+					"backtrace" : 23,
+					"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/port"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/home/vlaskz/esp/esp-idf/components/mbedtls/port/include"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/home/vlaskz/esp/esp-idf/components/mbedtls/mbedtls/include"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/home/vlaskz/esp/esp-idf/components/lwip/include/apps"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/home/vlaskz/esp/esp-idf/components/lwip/lwip/src/include"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/home/vlaskz/esp/esp-idf/components/lwip/port/esp32/include"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/home/vlaskz/esp/esp-idf/components/lwip/port/esp32/include/arch"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/home/vlaskz/esp/esp-idf/components/lwip/include_compat"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/home/vlaskz/esp/esp-idf/components/vfs/include"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "/home/vlaskz/esp/esp-idf/components/esp32/include"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "/home/vlaskz/esp/esp-idf/components/driver/include"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "/home/vlaskz/esp/esp-idf/components/esp_ringbuf/include"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "/home/vlaskz/esp/esp-idf/components/tcpip_adapter/include"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "/home/vlaskz/esp/esp-idf/components/esp_event/include"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "/home/vlaskz/esp/esp-idf/components/log/include"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/home/vlaskz/esp/esp-idf/components/newlib/platform_include"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/home/vlaskz/esp/esp-idf/components/newlib/include"
+				},
+				{
+					"backtrace" : 32,
+					"path" : "/home/vlaskz/esp/esp-idf/components/freertos/include"
+				},
+				{
+					"backtrace" : 32,
+					"path" : "/home/vlaskz/esp/esp-idf/components/app_trace/include"
+				},
+				{
+					"backtrace" : 34,
+					"path" : "/home/vlaskz/esp/esp-idf/components/heap/include"
+				},
+				{
+					"backtrace" : 36,
+					"path" : "/home/vlaskz/esp/esp-idf/components/soc/esp32/include"
+				},
+				{
+					"backtrace" : 36,
+					"path" : "/home/vlaskz/esp/esp-idf/components/soc/include"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				38,
+				40,
+				41,
+				42,
+				44,
+				45,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				55,
+				56,
+				60,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				105,
+				106,
+				107,
+				108,
+				109,
+				111,
+				112,
+				113,
+				114
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " "
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Og"
+				},
+				{
+					"backtrace" : 37,
+					"fragment" : "-std=gnu99"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fstrict-volatile-bitfields"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-mlongcalls"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-nostdlib"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Werror=all"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-error=unused-function"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-error=unused-but-set-variable"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-error=unused-variable"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-error=deprecated-declarations"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-unused-parameter"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-sign-compare"
+				},
+				{
+					"backtrace" : 38,
+					"fragment" : "-Wno-old-style-declaration"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-ggdb"
+				},
+				{
+					"fragment" : "-Wno-type-limits"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 11,
+					"define" : "CONFIGURED"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "ESP_PLATFORM"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "GCC_NOT_5_2_0=1"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "HAVE_CONFIG_H"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "HAVE_WEAK_SYMBOLS"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "IDF_VER=\"v3.2.2-436-g8e74a471e\""
+				},
+				{
+					"backtrace" : 0,
+					"define" : "MBEDTLS_CONFIG_FILE=\"mbedtls/esp_config.h\""
+				},
+				{
+					"backtrace" : 11,
+					"define" : "NATIVE_LITTLE_ENDIAN"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "__STDC_CONSTANT_MACROS"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 18,
+					"path" : "/home/vlaskz/esp/hello_world/build/config"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/include"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/port_include"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/include/sodium"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/port_include/sodium"
+				},
+				{
+					"backtrace" : 23,
+					"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/port"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/home/vlaskz/esp/esp-idf/components/mbedtls/port/include"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/home/vlaskz/esp/esp-idf/components/mbedtls/mbedtls/include"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/home/vlaskz/esp/esp-idf/components/lwip/include/apps"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/home/vlaskz/esp/esp-idf/components/lwip/lwip/src/include"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/home/vlaskz/esp/esp-idf/components/lwip/port/esp32/include"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/home/vlaskz/esp/esp-idf/components/lwip/port/esp32/include/arch"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/home/vlaskz/esp/esp-idf/components/lwip/include_compat"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/home/vlaskz/esp/esp-idf/components/vfs/include"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "/home/vlaskz/esp/esp-idf/components/esp32/include"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "/home/vlaskz/esp/esp-idf/components/driver/include"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "/home/vlaskz/esp/esp-idf/components/esp_ringbuf/include"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "/home/vlaskz/esp/esp-idf/components/tcpip_adapter/include"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "/home/vlaskz/esp/esp-idf/components/esp_event/include"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "/home/vlaskz/esp/esp-idf/components/log/include"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/home/vlaskz/esp/esp-idf/components/newlib/platform_include"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/home/vlaskz/esp/esp-idf/components/newlib/include"
+				},
+				{
+					"backtrace" : 32,
+					"path" : "/home/vlaskz/esp/esp-idf/components/freertos/include"
+				},
+				{
+					"backtrace" : 32,
+					"path" : "/home/vlaskz/esp/esp-idf/components/app_trace/include"
+				},
+				{
+					"backtrace" : 34,
+					"path" : "/home/vlaskz/esp/esp-idf/components/heap/include"
+				},
+				{
+					"backtrace" : 36,
+					"path" : "/home/vlaskz/esp/esp-idf/components/soc/esp32/include"
+				},
+				{
+					"backtrace" : 36,
+					"path" : "/home/vlaskz/esp/esp-idf/components/soc/include"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				37,
+				43,
+				46
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " "
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Og"
+				},
+				{
+					"backtrace" : 37,
+					"fragment" : "-std=gnu99"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fstrict-volatile-bitfields"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-mlongcalls"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-nostdlib"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Werror=all"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-error=unused-function"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-error=unused-but-set-variable"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-error=unused-variable"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-error=deprecated-declarations"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-unused-parameter"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-sign-compare"
+				},
+				{
+					"backtrace" : 38,
+					"fragment" : "-Wno-old-style-declaration"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-ggdb"
+				},
+				{
+					"fragment" : "-Wno-unknown-pragmas"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 11,
+					"define" : "CONFIGURED"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "ESP_PLATFORM"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "GCC_NOT_5_2_0=1"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "HAVE_CONFIG_H"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "HAVE_WEAK_SYMBOLS"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "IDF_VER=\"v3.2.2-436-g8e74a471e\""
+				},
+				{
+					"backtrace" : 0,
+					"define" : "MBEDTLS_CONFIG_FILE=\"mbedtls/esp_config.h\""
+				},
+				{
+					"backtrace" : 11,
+					"define" : "NATIVE_LITTLE_ENDIAN"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "__STDC_CONSTANT_MACROS"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 18,
+					"path" : "/home/vlaskz/esp/hello_world/build/config"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/include"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/port_include"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/include/sodium"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/port_include/sodium"
+				},
+				{
+					"backtrace" : 23,
+					"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/port"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/home/vlaskz/esp/esp-idf/components/mbedtls/port/include"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/home/vlaskz/esp/esp-idf/components/mbedtls/mbedtls/include"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/home/vlaskz/esp/esp-idf/components/lwip/include/apps"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/home/vlaskz/esp/esp-idf/components/lwip/lwip/src/include"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/home/vlaskz/esp/esp-idf/components/lwip/port/esp32/include"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/home/vlaskz/esp/esp-idf/components/lwip/port/esp32/include/arch"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/home/vlaskz/esp/esp-idf/components/lwip/include_compat"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/home/vlaskz/esp/esp-idf/components/vfs/include"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "/home/vlaskz/esp/esp-idf/components/esp32/include"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "/home/vlaskz/esp/esp-idf/components/driver/include"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "/home/vlaskz/esp/esp-idf/components/esp_ringbuf/include"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "/home/vlaskz/esp/esp-idf/components/tcpip_adapter/include"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "/home/vlaskz/esp/esp-idf/components/esp_event/include"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "/home/vlaskz/esp/esp-idf/components/log/include"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/home/vlaskz/esp/esp-idf/components/newlib/platform_include"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/home/vlaskz/esp/esp-idf/components/newlib/include"
+				},
+				{
+					"backtrace" : 32,
+					"path" : "/home/vlaskz/esp/esp-idf/components/freertos/include"
+				},
+				{
+					"backtrace" : 32,
+					"path" : "/home/vlaskz/esp/esp-idf/components/app_trace/include"
+				},
+				{
+					"backtrace" : 34,
+					"path" : "/home/vlaskz/esp/esp-idf/components/heap/include"
+				},
+				{
+					"backtrace" : 36,
+					"path" : "/home/vlaskz/esp/esp-idf/components/soc/esp32/include"
+				},
+				{
+					"backtrace" : 36,
+					"path" : "/home/vlaskz/esp/esp-idf/components/soc/include"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				39
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " "
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Og"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fstrict-volatile-bitfields"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-mlongcalls"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-nostdlib"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Werror=all"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-error=unused-function"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-error=unused-but-set-variable"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-error=unused-variable"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-error=deprecated-declarations"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-unused-parameter"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-sign-compare"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-ggdb"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 11,
+					"define" : "CONFIGURED"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "ESP_PLATFORM"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "GCC_NOT_5_2_0=1"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "HAVE_CONFIG_H"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "HAVE_WEAK_SYMBOLS"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "IDF_VER=\"v3.2.2-436-g8e74a471e\""
+				},
+				{
+					"backtrace" : 0,
+					"define" : "MBEDTLS_CONFIG_FILE=\"mbedtls/esp_config.h\""
+				},
+				{
+					"backtrace" : 11,
+					"define" : "NATIVE_LITTLE_ENDIAN"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "__STDC_CONSTANT_MACROS"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 18,
+					"path" : "/home/vlaskz/esp/hello_world/build/config"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/include"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/port_include"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/include/sodium"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/port_include/sodium"
+				},
+				{
+					"backtrace" : 23,
+					"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/port"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/home/vlaskz/esp/esp-idf/components/mbedtls/port/include"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/home/vlaskz/esp/esp-idf/components/mbedtls/mbedtls/include"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/home/vlaskz/esp/esp-idf/components/lwip/include/apps"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/home/vlaskz/esp/esp-idf/components/lwip/lwip/src/include"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/home/vlaskz/esp/esp-idf/components/lwip/port/esp32/include"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/home/vlaskz/esp/esp-idf/components/lwip/port/esp32/include/arch"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/home/vlaskz/esp/esp-idf/components/lwip/include_compat"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/home/vlaskz/esp/esp-idf/components/vfs/include"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "/home/vlaskz/esp/esp-idf/components/esp32/include"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "/home/vlaskz/esp/esp-idf/components/driver/include"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "/home/vlaskz/esp/esp-idf/components/esp_ringbuf/include"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "/home/vlaskz/esp/esp-idf/components/tcpip_adapter/include"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "/home/vlaskz/esp/esp-idf/components/esp_event/include"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "/home/vlaskz/esp/esp-idf/components/log/include"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/home/vlaskz/esp/esp-idf/components/newlib/platform_include"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/home/vlaskz/esp/esp-idf/components/newlib/include"
+				},
+				{
+					"backtrace" : 32,
+					"path" : "/home/vlaskz/esp/esp-idf/components/freertos/include"
+				},
+				{
+					"backtrace" : 32,
+					"path" : "/home/vlaskz/esp/esp-idf/components/app_trace/include"
+				},
+				{
+					"backtrace" : 34,
+					"path" : "/home/vlaskz/esp/esp-idf/components/heap/include"
+				},
+				{
+					"backtrace" : 36,
+					"path" : "/home/vlaskz/esp/esp-idf/components/soc/esp32/include"
+				},
+				{
+					"backtrace" : 36,
+					"path" : "/home/vlaskz/esp/esp-idf/components/soc/include"
+				}
+			],
+			"language" : "ASM",
+			"sourceIndexes" : 
+			[
+				54,
+				57,
+				58,
+				59,
+				61,
+				62,
+				63,
+				93
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " "
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Og"
+				},
+				{
+					"backtrace" : 37,
+					"fragment" : "-std=gnu99"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fstrict-volatile-bitfields"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-mlongcalls"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-nostdlib"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Werror=all"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-error=unused-function"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-error=unused-but-set-variable"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-error=unused-variable"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-error=deprecated-declarations"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-unused-parameter"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-sign-compare"
+				},
+				{
+					"backtrace" : 38,
+					"fragment" : "-Wno-old-style-declaration"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-ggdb"
+				},
+				{
+					"fragment" : "-Wno-implicit-fallthrough"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 11,
+					"define" : "CONFIGURED"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "ESP_PLATFORM"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "GCC_NOT_5_2_0=1"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "HAVE_CONFIG_H"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "HAVE_WEAK_SYMBOLS"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "IDF_VER=\"v3.2.2-436-g8e74a471e\""
+				},
+				{
+					"backtrace" : 0,
+					"define" : "MBEDTLS_CONFIG_FILE=\"mbedtls/esp_config.h\""
+				},
+				{
+					"backtrace" : 11,
+					"define" : "NATIVE_LITTLE_ENDIAN"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "__STDC_CONSTANT_MACROS"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 18,
+					"path" : "/home/vlaskz/esp/hello_world/build/config"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/include"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/port_include"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/include/sodium"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/port_include/sodium"
+				},
+				{
+					"backtrace" : 23,
+					"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/port"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/home/vlaskz/esp/esp-idf/components/mbedtls/port/include"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/home/vlaskz/esp/esp-idf/components/mbedtls/mbedtls/include"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/home/vlaskz/esp/esp-idf/components/lwip/include/apps"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/home/vlaskz/esp/esp-idf/components/lwip/lwip/src/include"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/home/vlaskz/esp/esp-idf/components/lwip/port/esp32/include"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/home/vlaskz/esp/esp-idf/components/lwip/port/esp32/include/arch"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/home/vlaskz/esp/esp-idf/components/lwip/include_compat"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/home/vlaskz/esp/esp-idf/components/vfs/include"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "/home/vlaskz/esp/esp-idf/components/esp32/include"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "/home/vlaskz/esp/esp-idf/components/driver/include"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "/home/vlaskz/esp/esp-idf/components/esp_ringbuf/include"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "/home/vlaskz/esp/esp-idf/components/tcpip_adapter/include"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "/home/vlaskz/esp/esp-idf/components/esp_event/include"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "/home/vlaskz/esp/esp-idf/components/log/include"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/home/vlaskz/esp/esp-idf/components/newlib/platform_include"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/home/vlaskz/esp/esp-idf/components/newlib/include"
+				},
+				{
+					"backtrace" : 32,
+					"path" : "/home/vlaskz/esp/esp-idf/components/freertos/include"
+				},
+				{
+					"backtrace" : 32,
+					"path" : "/home/vlaskz/esp/esp-idf/components/app_trace/include"
+				},
+				{
+					"backtrace" : 34,
+					"path" : "/home/vlaskz/esp/esp-idf/components/heap/include"
+				},
+				{
+					"backtrace" : 36,
+					"path" : "/home/vlaskz/esp/esp-idf/components/soc/esp32/include"
+				},
+				{
+					"backtrace" : 36,
+					"path" : "/home/vlaskz/esp/esp-idf/components/soc/include"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				71,
+				72
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " "
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Og"
+				},
+				{
+					"backtrace" : 37,
+					"fragment" : "-std=gnu99"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fstrict-volatile-bitfields"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-mlongcalls"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-nostdlib"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Werror=all"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-error=unused-function"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-error=unused-but-set-variable"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-error=unused-variable"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-error=deprecated-declarations"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-unused-parameter"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-sign-compare"
+				},
+				{
+					"backtrace" : 38,
+					"fragment" : "-Wno-old-style-declaration"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-ggdb"
+				},
+				{
+					"fragment" : "-DRANDOMBYTES_DEFAULT_IMPLEMENTATION"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 11,
+					"define" : "CONFIGURED"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "ESP_PLATFORM"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "GCC_NOT_5_2_0=1"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "HAVE_CONFIG_H"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "HAVE_WEAK_SYMBOLS"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "IDF_VER=\"v3.2.2-436-g8e74a471e\""
+				},
+				{
+					"backtrace" : 0,
+					"define" : "MBEDTLS_CONFIG_FILE=\"mbedtls/esp_config.h\""
+				},
+				{
+					"backtrace" : 11,
+					"define" : "NATIVE_LITTLE_ENDIAN"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "__STDC_CONSTANT_MACROS"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 18,
+					"path" : "/home/vlaskz/esp/hello_world/build/config"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/include"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/port_include"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/include/sodium"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/port_include/sodium"
+				},
+				{
+					"backtrace" : 23,
+					"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/port"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/home/vlaskz/esp/esp-idf/components/mbedtls/port/include"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/home/vlaskz/esp/esp-idf/components/mbedtls/mbedtls/include"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/home/vlaskz/esp/esp-idf/components/lwip/include/apps"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/home/vlaskz/esp/esp-idf/components/lwip/lwip/src/include"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/home/vlaskz/esp/esp-idf/components/lwip/port/esp32/include"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/home/vlaskz/esp/esp-idf/components/lwip/port/esp32/include/arch"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/home/vlaskz/esp/esp-idf/components/lwip/include_compat"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/home/vlaskz/esp/esp-idf/components/vfs/include"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "/home/vlaskz/esp/esp-idf/components/esp32/include"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "/home/vlaskz/esp/esp-idf/components/driver/include"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "/home/vlaskz/esp/esp-idf/components/esp_ringbuf/include"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "/home/vlaskz/esp/esp-idf/components/tcpip_adapter/include"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "/home/vlaskz/esp/esp-idf/components/esp_event/include"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "/home/vlaskz/esp/esp-idf/components/log/include"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/home/vlaskz/esp/esp-idf/components/newlib/platform_include"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/home/vlaskz/esp/esp-idf/components/newlib/include"
+				},
+				{
+					"backtrace" : 32,
+					"path" : "/home/vlaskz/esp/esp-idf/components/freertos/include"
+				},
+				{
+					"backtrace" : 32,
+					"path" : "/home/vlaskz/esp/esp-idf/components/app_trace/include"
+				},
+				{
+					"backtrace" : 34,
+					"path" : "/home/vlaskz/esp/esp-idf/components/heap/include"
+				},
+				{
+					"backtrace" : 36,
+					"path" : "/home/vlaskz/esp/esp-idf/components/soc/esp32/include"
+				},
+				{
+					"backtrace" : 36,
+					"path" : "/home/vlaskz/esp/esp-idf/components/soc/include"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				104
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " "
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Og"
+				},
+				{
+					"backtrace" : 37,
+					"fragment" : "-std=gnu99"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fstrict-volatile-bitfields"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-mlongcalls"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-nostdlib"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Werror=all"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-error=unused-function"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-error=unused-but-set-variable"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-error=unused-variable"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-error=deprecated-declarations"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-unused-parameter"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-sign-compare"
+				},
+				{
+					"backtrace" : 38,
+					"fragment" : "-Wno-old-style-declaration"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-ggdb"
+				},
+				{
+					"fragment" : "-Wno-unused-variable"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 11,
+					"define" : "CONFIGURED"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "ESP_PLATFORM"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "GCC_NOT_5_2_0=1"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "HAVE_CONFIG_H"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "HAVE_WEAK_SYMBOLS"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "IDF_VER=\"v3.2.2-436-g8e74a471e\""
+				},
+				{
+					"backtrace" : 0,
+					"define" : "MBEDTLS_CONFIG_FILE=\"mbedtls/esp_config.h\""
+				},
+				{
+					"backtrace" : 11,
+					"define" : "NATIVE_LITTLE_ENDIAN"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "__STDC_CONSTANT_MACROS"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 18,
+					"path" : "/home/vlaskz/esp/hello_world/build/config"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/include"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/port_include"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/include/sodium"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/port_include/sodium"
+				},
+				{
+					"backtrace" : 23,
+					"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/port"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/home/vlaskz/esp/esp-idf/components/mbedtls/port/include"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/home/vlaskz/esp/esp-idf/components/mbedtls/mbedtls/include"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/home/vlaskz/esp/esp-idf/components/lwip/include/apps"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/home/vlaskz/esp/esp-idf/components/lwip/lwip/src/include"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/home/vlaskz/esp/esp-idf/components/lwip/port/esp32/include"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/home/vlaskz/esp/esp-idf/components/lwip/port/esp32/include/arch"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/home/vlaskz/esp/esp-idf/components/lwip/include_compat"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/home/vlaskz/esp/esp-idf/components/vfs/include"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "/home/vlaskz/esp/esp-idf/components/esp32/include"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "/home/vlaskz/esp/esp-idf/components/driver/include"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "/home/vlaskz/esp/esp-idf/components/esp_ringbuf/include"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "/home/vlaskz/esp/esp-idf/components/tcpip_adapter/include"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "/home/vlaskz/esp/esp-idf/components/esp_event/include"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "/home/vlaskz/esp/esp-idf/components/log/include"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/home/vlaskz/esp/esp-idf/components/newlib/platform_include"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/home/vlaskz/esp/esp-idf/components/newlib/include"
+				},
+				{
+					"backtrace" : 32,
+					"path" : "/home/vlaskz/esp/esp-idf/components/freertos/include"
+				},
+				{
+					"backtrace" : 32,
+					"path" : "/home/vlaskz/esp/esp-idf/components/app_trace/include"
+				},
+				{
+					"backtrace" : 34,
+					"path" : "/home/vlaskz/esp/esp-idf/components/heap/include"
+				},
+				{
+					"backtrace" : 36,
+					"path" : "/home/vlaskz/esp/esp-idf/components/soc/esp32/include"
+				},
+				{
+					"backtrace" : 36,
+					"path" : "/home/vlaskz/esp/esp-idf/components/soc/include"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				110
+			]
+		}
+	],
+	"id" : "libsodium::@ee28acb88615a5535447",
+	"name" : "libsodium",
+	"nameOnDisk" : "liblibsodium.a",
+	"paths" : 
+	{
+		"build" : "libsodium",
+		"source" : "/home/vlaskz/esp/esp-idf/components/libsodium"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				55,
+				56,
+				60,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				54,
+				57,
+				58,
+				59,
+				61,
+				62,
+				63,
+				93
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_aead/chacha20poly1305/sodium/aead_chacha20poly1305.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_aead/xchacha20poly1305/sodium/aead_xchacha20poly1305.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_auth/crypto_auth.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_auth/hmacsha256/auth_hmacsha256.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_auth/hmacsha512/auth_hmacsha512.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_auth/hmacsha512256/auth_hmacsha512256.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_box/crypto_box.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_box/crypto_box_easy.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_box/crypto_box_seal.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_box/curve25519xchacha20poly1305/box_curve25519xchacha20poly1305.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_box/curve25519xsalsa20poly1305/box_curve25519xsalsa20poly1305.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_core/curve25519/ref10/curve25519_ref10.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_core/hchacha20/core_hchacha20.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_core/hsalsa20/core_hsalsa20.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_core/hsalsa20/ref2/core_hsalsa20_ref2.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_core/salsa/ref/core_salsa_ref.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_generichash/crypto_generichash.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_generichash/blake2b/generichash_blake2.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-avx2.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-ref.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-sse41.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-ssse3.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-ref.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_generichash/blake2b/ref/generichash_blake2b.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_hash/crypto_hash.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_hash/sha256/hash_sha256.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_hash/sha256/cp/hash_sha256_cp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_hash/sha512/hash_sha512.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_hash/sha512/cp/hash_sha512_cp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_kdf/crypto_kdf.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_kdf/blake2b/kdf_blake2b.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_kx/crypto_kx.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_onetimeauth/crypto_onetimeauth.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_onetimeauth/poly1305/onetimeauth_poly1305.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_onetimeauth/poly1305/donna/poly1305_donna.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_onetimeauth/poly1305/sse2/poly1305_sse2.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_pwhash/crypto_pwhash.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_pwhash/argon2/argon2-core.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_pwhash/argon2/argon2-encoding.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-ref.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-ssse3.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_pwhash/argon2/argon2.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_pwhash/argon2/blake2b-long.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_pwhash/argon2/pwhash_argon2i.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/crypto_scrypt-common.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/pbkdf2-sha256.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/pwhash_scryptsalsa208sha256.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/scrypt_platform.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/nosse/pwhash_scryptsalsa208sha256_nosse.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_pwhash/scryptsalsa208sha256/sse/pwhash_scryptsalsa208sha256_sse.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_scalarmult/crypto_scalarmult.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_scalarmult/curve25519/scalarmult_curve25519.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_scalarmult/curve25519/donna_c64/curve25519_donna_c64.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_scalarmult/curve25519/ref10/x25519_ref10.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 3,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/consts.S",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/curve25519_sandy2x.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe51_invert.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 3,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe51_mul.S",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 3,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe51_nsquare.S",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 3,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe51_pack.S",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe_frombytes_sandy2x.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 3,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/ladder.S",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 3,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/ladder_base.S",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 3,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_scalarmult/curve25519/sandy2x/sandy2x.S",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_secretbox/crypto_secretbox.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_secretbox/crypto_secretbox_easy.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_secretbox/xchacha20poly1305/secretbox_xchacha20poly1305.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_secretbox/xsalsa20poly1305/secretbox_xsalsa20poly1305.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_shorthash/crypto_shorthash.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_shorthash/siphash24/shorthash_siphash24.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_shorthash/siphash24/shorthash_siphashx24.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 4,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_shorthash/siphash24/ref/shorthash_siphash24_ref.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 4,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_shorthash/siphash24/ref/shorthash_siphashx24_ref.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_sign/crypto_sign.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_sign/ed25519/sign_ed25519.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_sign/ed25519/ref10/keypair.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_sign/ed25519/ref10/obsolete.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_sign/ed25519/ref10/open.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_sign/ed25519/ref10/sign.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_stream/crypto_stream.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_stream/aes128ctr/stream_aes128ctr.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_stream/aes128ctr/nacl/afternm_aes128ctr.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_stream/aes128ctr/nacl/beforenm_aes128ctr.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_stream/aes128ctr/nacl/consts_aes128ctr.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_stream/aes128ctr/nacl/int128_aes128ctr.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_stream/aes128ctr/nacl/stream_aes128ctr_nacl.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_stream/aes128ctr/nacl/xor_afternm_aes128ctr.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_stream/chacha20/stream_chacha20.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_stream/chacha20/dolbeau/chacha20_dolbeau-avx2.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_stream/chacha20/dolbeau/chacha20_dolbeau-ssse3.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_stream/chacha20/ref/chacha20_ref.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_stream/salsa20/stream_salsa20.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_stream/salsa20/ref/salsa20_ref.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 3,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_stream/salsa20/xmm6/salsa20_xmm6-asm.S",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_stream/salsa20/xmm6/salsa20_xmm6.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_stream/salsa20/xmm6int/salsa20_xmm6int-avx2.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_stream/salsa20/xmm6int/salsa20_xmm6int-sse2.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_stream/salsa2012/stream_salsa2012.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_stream/salsa2012/ref/stream_salsa2012_ref.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_stream/salsa208/stream_salsa208.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_stream/salsa208/ref/stream_salsa208_ref.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_stream/xchacha20/stream_xchacha20.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_stream/xsalsa20/stream_xsalsa20.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_verify/sodium/verify.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 5,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/randombytes/randombytes.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/randombytes/nativeclient/randombytes_nativeclient.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/randombytes/salsa20/randombytes_salsa20_random.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/randombytes/sysrandom/randombytes_sysrandom.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/sodium/core.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/sodium/runtime.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 6,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/sodium/utils.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/libsodium/src/libsodium/sodium/version.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/port/randombytes_esp32.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/port/crypto_hash_mbedtls/crypto_hash_sha256_mbedtls.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/vlaskz/esp/esp-idf/components/libsodium/port/crypto_hash_mbedtls/crypto_hash_sha512_mbedtls.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

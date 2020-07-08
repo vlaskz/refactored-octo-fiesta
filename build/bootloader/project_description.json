@@ -1,0 +1,18 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "/home/vlaskz/esp/esp-idf/components/bootloader/subproject",
+    "build_dir":          "/home/vlaskz/esp/hello_world/build/bootloader",
+    "config_file":        "/home/vlaskz/esp/hello_world/sdkconfig",
+    "config_defaults":    "/home/vlaskz/esp/hello_world/sdkconfig.defaults",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "v3.2.2-436-g8e74a471e",
+    "phy_data_partition": "",
+    "monitor_baud" : "115200",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : " /home/vlaskz/esp/esp-idf/components/spi_flash/Kconfig /home/vlaskz/esp/esp-idf/components/esp32/Kconfig /home/vlaskz/esp/esp-idf/components/log/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : " /home/vlaskz/esp/esp-idf/components/esptool_py/Kconfig.projbuild /home/vlaskz/esp/esp-idf/components/partition_table/Kconfig.projbuild /home/vlaskz/esp/esp-idf/components/bootloader/Kconfig.projbuild"
+    },
+    "build_components" : [ "soc", "spi_flash", "micro-ecc", "bootloader_support", "esptool_py", "partition_table", "main", "esp32", "log", "bootloader" ],
+    "build_component_paths" : [ "/home/vlaskz/esp/esp-idf/components/soc", "/home/vlaskz/esp/esp-idf/components/spi_flash", "/home/vlaskz/esp/esp-idf/components/micro-ecc", "/home/vlaskz/esp/esp-idf/components/bootloader_support", "/home/vlaskz/esp/esp-idf/components/esptool_py", "/home/vlaskz/esp/esp-idf/components/partition_table", "/home/vlaskz/esp/esp-idf/components/bootloader/subproject/main", "/home/vlaskz/esp/esp-idf/components/esp32", "/home/vlaskz/esp/esp-idf/components/log", "/home/vlaskz/esp/esp-idf/components/bootloader" ]
+}

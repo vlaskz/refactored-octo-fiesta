@@ -1,0 +1,1 @@
+cmd='/usr/bin/cmake;-DSDKCONFIG=/home/vlaskz/esp/hello_world/sdkconfig;-DIDF_PATH=/home/vlaskz/esp/esp-idf;-DEXTRA_COMPONENT_DIRS=/home/vlaskz/esp/esp-idf/components/bootloader;-GNinja;<SOURCE_DIR><SOURCE_SUBDIR>'
